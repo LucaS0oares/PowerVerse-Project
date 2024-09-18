@@ -1,0 +1,1 @@
+Esse projeto consiste em criar um site com o intuito de armazenar e levar informações do PowerVerse para o público. Para aqueles que não estão cientes, PowerVerse é um universo de heróis no qual eu e meus companheiros estão trabalhando. 
