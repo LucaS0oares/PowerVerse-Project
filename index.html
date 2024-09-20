@@ -1,4 +1,9 @@
-<html> 
+<!DOCTYPE html>
+<html lang="en"> 
+  <head>
+    <meta charset="utf-8">
+    <title>Cat Photo App</title>
+  </head>
     <body>
         <main>
             <h1> Cat Photo App </h1>
@@ -38,12 +43,12 @@
               <form action="https://freecatphotoapp.com/submit-cat-photo">
                <fieldset>
                 <legend>Is your cat an indoor or outdoor cat?</legend>
-                <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor">Indoor</label>
+                <label><input checked type="radio" id="indoor" name="indoor-outdoor" value="indoor">Indoor</label>
                 <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor">Outdoor</label>
                </fieldset>
                <fieldset>
                 <legend>What's your cat's personality?</legend>
-                <input type="checkbox" id="loving" name="personality"> <label for="loving">Loving</label>
+                <input checked type="checkbox" id="loving" name="personality"> <label for="loving">Loving</label>
                 <input type="checkbox" id="lazy" name="personality"> <label for="lazy">Lazy</label>    
                 <input type="checkbox" id="energetic" name="personality"> <label for="energetic">Energetic</label>            
                </fieldset>
@@ -52,5 +57,8 @@
               </form>
             </section>
         </main>
+        <footer>
+          <p>Aplication made by <a href="https://github.com/LucaS0oares">Luca Soares. </a></p>
+        </footer>
     </body>
 </html> 
