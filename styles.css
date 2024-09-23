@@ -6,6 +6,6 @@ h1 {
 body {
     background-color: orange;
 }
-h2, h3, p, ul, ol {
+h2, h3, p, ul, ol, legend, figcaption {
     -webkit-text-fill-color: white;
 }
