@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    -webkit-text-fill-color: white;
+}
+
+body {
+    background-color: orange;
+}
+h2, h3, p, ul, ol {
+    -webkit-text-fill-color: white;
+}
