@@ -1,4 +1,4 @@
-h1, p, h2{
+ p, h2{
     text-align: center;
     -webkit-text-fill-color: white;
 }
@@ -6,6 +6,15 @@ h1, p, h2{
 body {
     background-color: orange;
 }
-h2, h3, p, ul, ol, legend, figcaption {
+h2, h3, p, ul, ol, legend, figcaption, h1{
     -webkit-text-fill-color: white;
 }
+
+.imagem {
+    margin-top: 50%;
+}
+
+.figcaption {
+    display: inline-block;
+}
+
