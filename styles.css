@@ -18,3 +18,23 @@ h2, h3, p, ul, ol, legend, figcaption, h1{
     display: inline-block;
 }
 
+.italico {
+     font-style: italic;
+}
+
+hr {
+    height: 3px;
+    background-color: wheat;
+    border-color: wheat;
+}
+
+a:visited {
+    color:aquamarine;
+}
+
+a:hover {
+    color: violet;
+}
+
+
+
