@@ -36,5 +36,11 @@ a:hover {
     color: violet;
 }
 
+img {
+    max-inline-size: 300px;
+
+}
+
+
 
 
