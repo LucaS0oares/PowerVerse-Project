@@ -5,6 +5,12 @@
 
 body {
     background-color: orange;
+    margin: 0; /* Remove a margem padrão do body */
+    height: 100vh; /* Altura total da janela */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdfP6Mw0tmmxxOL1qFrSjCVYe359WASvvyYg&s'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: repeat; /* Não repete a imagem */
 }
 h2, h3, p, ul, ol, legend, figcaption, h1{
     -webkit-text-fill-color: white;
@@ -46,6 +52,7 @@ img {
     border-radius: 50%;
     border-width: 2px;
     border-spacing: 10px;
+    margin:40px;
 }
 
 .icon {
@@ -75,16 +82,34 @@ fieldset {
     border-radius: 20px;
 }
 
-input {
-    margin: auto;
-}
+
 
 .container {
     display: flex; /* Usa flexbox para layout */
     align-items: center; /* Alinha verticalmente */
+    background-color: #E69706;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Edu AU VIC WA NT Guides', cursive; 
 }
 .container img {
     width: 30px; /* Define a largura da imagem */
     height: 30px; /* Define a altura da imagem */
     margin-right: 8px; /* Espaço entre a imagem e o texto */
+}
+
+@font-face {
+    font-family: 'Edu AU VIC WA NT Guides';
+    src: url('fonts/EduAUVICWANtGuides.ttf') format('truetype'); /* Altere para o formato correto */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Edu AU VIC WA NT Guides', cursive; /* Use a fonte */
+}
+
+#input1 {
+    margin-left: 725px;
 }
