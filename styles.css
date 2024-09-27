@@ -10,10 +10,6 @@ h2, h3, p, ul, ol, legend, figcaption, h1{
     -webkit-text-fill-color: white;
 }
 
-.imagem {
-    margin-top: 50%;
-}
-
 .figcaption {
     display: inline-block;
 }
@@ -36,11 +32,59 @@ a:hover {
     color: violet;
 }
 
-img {
-    max-inline-size: 300px;
-
+a:active {
+    color: crimson;
 }
 
 
+img {
+    width: 400px;
+    height: 400px;
+    padding: 0px;
+    border-style: double; 
+    border-color: wheat;
+    border-radius: 50%;
+    border-width: 2px;
+    border-spacing: 10px;
+}
 
+.icon {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    border-style: none;
+    float: bottom;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
 
+button:hover {
+color: blue;
+}
+
+button {
+    border-radius: 30px;
+    width: 100px;
+    color: darkblue;
+}
+
+fieldset {
+    width: 500px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+input {
+    margin: auto;
+}
+
+.container {
+    display: flex; /* Usa flexbox para layout */
+    align-items: center; /* Alinha verticalmente */
+}
+.container img {
+    width: 30px; /* Define a largura da imagem */
+    height: 30px; /* Define a altura da imagem */
+    margin-right: 8px; /* Espaço entre a imagem e o texto */
+}
