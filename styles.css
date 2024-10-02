@@ -201,7 +201,7 @@ body {
     violet, indigo, blue, green, yellow, orange, red);
     background-clip: text;
     display: inline;
-    color: transparent;
+    
     animation: rainbow-animation 3s ease-in-out infinite;
 }
 @keyframes rainbow-animation {
