@@ -13,7 +13,7 @@
       <div>
         <main>
           <div class="container">
-            <h1>Cat Photo App</h1>
+            <h1 id="artext">Cat Photo App</h1>
             <img class="icon" src="https://media.tenor.com/4yEuW6bbRo0AAAAi/gato.gif" alt="cat jumping" >
         </div>
    
@@ -21,14 +21,14 @@
             <section>
             <h2> Cat Photos </h2>
                 <!-- TODO: Add a link to cat photos --> 
-                
+                <div class="gallery">
               
-                <img class="imagem" src="https://img.freepik.com/fotos-gratis/lindo-retrato-de-gato-de-perto_23-2149152054.jpg?size=626&ext=jpg&ga=GA1.1.1504664305.1727216702&semt=ais_hybrid" alt="A cool cat">  
+              <div class="gallery-item"> <img class="imagem" src="https://img.freepik.com/fotos-gratis/lindo-retrato-de-gato-de-perto_23-2149152054.jpg?size=626&ext=jpg&ga=GA1.1.1504664305.1727216702&semt=ais_hybrid" alt="A cool cat">  </div>
                 
-                <img class="gato-cinza" src="https://img.freepik.com/fotos-gratis/kitty-com-parede-monocromatica-atras-dela_23-2148955134.jpg?size=626&ext=jpg" alt="a cute cat">
+               <div class="gallery-item"> <img class="gato-cinza" src="https://img.freepik.com/fotos-gratis/kitty-com-parede-monocromatica-atras-dela_23-2148955134.jpg?size=626&ext=jpg" alt="a cute cat"> </div>
                 
-                <img class="imagem" src="https://img.freepik.com/fotos-gratis/vista-do-adoravel-gato-domestico-persa_23-2151773881.jpg?size=626&ext=jpg">
-                
+              <div class="gallery-item">  <img class="imagem" src="https://img.freepik.com/fotos-gratis/vista-do-adoravel-gato-domestico-persa_23-2151773881.jpg?size=626&ext=jpg"></div>
+                </div>
                <figcaption> See more  <a href="https://br.freepik.com/fotos/gatos"> cat photos </a> in our gallery. </figcaption> 
               </a>
               <hr>
@@ -71,8 +71,10 @@
                 <input type="checkbox" id="lazy" name="personality"> <label for="lazy">Lazy</label>    
                 <input type="checkbox" id="energetic" name="personality"> <label for="energetic">Energetic</label>            
                </fieldset>
+               <div class="input-container">
                 <input  id="input1" type="text" name="catphotourl" placeholder="Cat photo URL" required> 
                 <button type="submit">Submit</button>
+                </div>
               </form>
             </section>
         </main>
