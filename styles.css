@@ -196,19 +196,3 @@ body {
     margin: 20px;
 }
 
-#artext {
-    background: linear-gradient(to left,
-    violet, indigo, blue, green, yellow, orange, red);
-    background-clip: text;
-    display: inline;
-    
-    animation: rainbow-animation 3s ease-in-out infinite;
-}
-@keyframes rainbow-animation {
-    0% {
-        background-position: 0%;
-    }
-    100% {
-        background-position: 100%;
-    }
-}
